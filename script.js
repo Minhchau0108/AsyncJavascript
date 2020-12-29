@@ -14,7 +14,7 @@ let recorder = null;
 //--> create an async function to use await.
 const main = async () => {
     try{
-            //returns a media stream
+        //returns a media stream
         let stream = await navigator.mediaDevices.getUserMedia({ audio: true }); 
         console.log(stream);
         // Create a mediaRecorder object and assign it to our recorder variable.
